@@ -1,3 +1,10 @@
 import { navbar } from 'vuepress-theme-hope'
 
-export const enNavbar = navbar(['/en/', '/aboutMe'])
+export const enNavbar = navbar([
+  {
+    text: 'Home',
+    link: '/en/',
+    icon: 'home'
+  },
+  '/aboutMe'
+])

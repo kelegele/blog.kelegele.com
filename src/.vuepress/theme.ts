@@ -12,7 +12,7 @@ export default hopeTheme({
   backToTop: true,
   rtl: false,
   pure: false,
-
+  darkmode: 'switch',
   logo: '/logo-black-bg.png',
   logoDark: '/logo.png',
 
@@ -20,7 +20,7 @@ export default hopeTheme({
 
   author: {
     name: 'Felix',
-    url: 'https://blog.kelegele.com/aboutMe',
+    url: '/aboutMe',
     email: 'kelegele@qq.com'
   },
 
@@ -33,6 +33,8 @@ export default hopeTheme({
   docsDir: 'src',
 
   blog: {
+    avatar: '/avatar.jpg',
+    name: 'Felix',
     roundAvatar: true,
     medias: {
       Email: 'mailto:kelegele@qq.com',
@@ -60,7 +62,7 @@ export default hopeTheme({
       footer: 'Kelegele',
 
       displayFooter: true,
-      copyright: 'MIT Licensed | Copyright © 2023 Kelegele',
+      copyright: 'MIT Licensed | Copyright © 2019~2023 Kelegele',
 
       blog: {
         description: 'INFJ Explorer',
@@ -87,7 +89,7 @@ export default hopeTheme({
       footer: '可了个乐',
 
       displayFooter: true,
-      copyright: 'MIT Licensed | Copyright © 2023 可了个乐',
+      copyright: 'MIT Licensed | Copyright © 2019~2023 可了个乐',
 
       blog: {
         description: '⁉️复杂多元世界探险家<br/>乐观现实主义梦想家➿',
@@ -114,6 +116,7 @@ export default hopeTheme({
     blog: true,
     activeHeaderLinks: true,
     copyright: {
+      global: true,
       author: 'Felix (blog.kelegele.com)',
       license: 'MIT',
       triggerLength: 1
@@ -121,12 +124,21 @@ export default hopeTheme({
     // Github: blog-comment
     // Vercel: blog-comment
     // LeanCloud: blog-comment
+    // comment: {
+    //   provider: 'Waline',
+    //   serverURL: 'https://blog-comment-kelegele.vercel.app/',
+    //   dark: 'auto',
+    //   requiredMeta: ['nick', 'mail'],
+    //   wordLimit: [3, 1000]
+    // },
+
+    // Github: kelegele/blog-comment
     comment: {
-      provider: 'Waline',
-      serverURL: 'https://blog-comment-kelegele.vercel.app/',
-      dark: 'auto',
-      requiredMeta: ['nick', 'mail'],
-      wordLimit: [3, 1000]
+      provider: 'Giscus',
+      repo: 'kelegele/blog-comment',
+      repoId: 'R_kgDOK8wYgw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOK8wYg84Cb8Xp'
     },
 
     // all features are enabled for demo, only preserve features you need here

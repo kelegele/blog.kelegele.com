@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: Home
+title: Home - Kelegele
 heroImage: /logo.png
 heroImageDark: /logo.png
 heroAlt: 可了个乐 Kelegele Logo

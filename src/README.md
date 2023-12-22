@@ -5,7 +5,7 @@ sticky: false #非置顶
 star: false #非收藏
 layout: BlogHome
 icon: home
-title: 主页
+title: 主页 - 可了个乐
 heroImage: /logo.png
 heroImageDark: /logo.png
 heroAlt: 可了个乐 Kelegele Logo
@@ -14,9 +14,9 @@ bgImage: /images/homeCover.jpg
 bgImageDark: /images/homeCover.jpg
 heroFullScreen: true
 tagline: ⁉️复杂多元世界探险家<br/>乐观现实主义梦想家➿
-# projects:
-# - icon: project
-#   name: 项目名称
-#   desc: 项目详细描述
-#   link: https://你的项目链接
+projects:
+  - icon: friend
+    name: 可了个乐
+    desc: 这是友联示例
+    link: https://blog.kelegele.com
 ---
