@@ -118,26 +118,16 @@ export default hopeTheme({
       license: 'MIT',
       triggerLength: 1
     },
-    // Waline 在墙外，弃用
     // Github: blog-comment
     // Vercel: blog-comment
     // LeanCloud: blog-comment
-    // comment: {
-    //   provider: 'Waline',
-    //   serverURL: 'https://blog-comment-kelegele.vercel.app/',
-    //   dark: 'auto',
-    //   requiredMeta: ['nick'],
-    //   login: 'force',
-    //   wordLimit: [5, 500]
-    // },
-
-    // install @waline/client before enabling it
-    // WARNING: This is a test server for demo only.
-    // You should create and use your own comment service in production.
-    // comment: {
-    //   provider: "Waline",
-    //   serverURL: "https://waline-comment.vuejs.press",
-    // },
+    comment: {
+      provider: 'Waline',
+      serverURL: 'https://blog-comment-kelegele.vercel.app/',
+      dark: 'auto',
+      requiredMeta: ['nick', 'mail'],
+      wordLimit: [3, 1000]
+    },
 
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
