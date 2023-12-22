@@ -118,17 +118,18 @@ export default hopeTheme({
       license: 'MIT',
       triggerLength: 1
     },
+    // Waline 在墙外，弃用
     // Github: blog-comment
     // Vercel: blog-comment
     // LeanCloud: blog-comment
-    comment: {
-      provider: 'Waline',
-      serverURL: 'https://blog-comment-kelegele.vercel.app/',
-      dark: 'auto',
-      requiredMeta: ['nick'],
-      login: 'force',
-      wordLimit: [5, 500]
-    },
+    // comment: {
+    //   provider: 'Waline',
+    //   serverURL: 'https://blog-comment-kelegele.vercel.app/',
+    //   dark: 'auto',
+    //   requiredMeta: ['nick'],
+    //   login: 'force',
+    //   wordLimit: [5, 500]
+    // },
 
     // install @waline/client before enabling it
     // WARNING: This is a test server for demo only.
