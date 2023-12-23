@@ -6,5 +6,19 @@ export const enNavbar = navbar([
     link: '/en/',
     icon: 'home'
   },
-  '/aboutMe'
+  {
+    text: 'Content',
+    link: '/en/article',
+    icon: 'circle-check',
+    prefix: '/en/article',
+    children: [
+      { text: 'Creativity', link: '/creativity' },
+      { text: 'Geek', link: '/geek' }
+    ]
+  },
+  {
+    text: 'About',
+    link: '/en/ABOUT',
+    icon: 'circle-info'
+  }
 ])

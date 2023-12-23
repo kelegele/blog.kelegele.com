@@ -20,7 +20,7 @@ export default hopeTheme({
 
   author: {
     name: 'Felix',
-    url: '/aboutMe',
+    url: '/ABOUT',
     email: 'kelegele@qq.com'
   },
 
@@ -39,7 +39,7 @@ export default hopeTheme({
     medias: {
       Email: 'mailto:kelegele@qq.com',
       GitHub: 'https://github.com/kelegele',
-      Wechat: 'aboutMe'
+      Wechat: 'ABOUT'
       // Sponsor: ['sponsor', path.resolve(__dirname, 'icons/sponsor-icon.svg')]
     }
   },
@@ -66,7 +66,7 @@ export default hopeTheme({
 
       blog: {
         description: 'INFJ Explorer',
-        intro: '/en/aboutMe.html',
+        intro: '/en/ABOUT.html',
         timeline: 'Timeline'
       },
 
@@ -93,7 +93,7 @@ export default hopeTheme({
 
       blog: {
         description: '⁉️复杂多元世界探险家<br/>乐观现实主义梦想家➿',
-        intro: '/aboutMe.html',
+        intro: '/ABOUT.html',
         timeline: '时间轴'
       },
 
@@ -120,6 +120,9 @@ export default hopeTheme({
       author: 'Felix (blog.kelegele.com)',
       license: 'MIT',
       triggerLength: 1
+    },
+    feed: {
+      rss: true
     },
     // Github: blog-comment
     // Vercel: blog-comment

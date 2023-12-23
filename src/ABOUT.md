@@ -2,6 +2,7 @@
 icon: circle-info
 date: 2019-07-28 16:02:58
 title: '本站与我'
+article: false
 prev: false
 next: false
 ---
@@ -14,7 +15,7 @@ next: false
 
 <!--- more --->
 
-![](/logo-black-bg.png)
+![可了个乐 Kelegele](/logo-black-bg.png)
 
 ## 解释 🌎
 

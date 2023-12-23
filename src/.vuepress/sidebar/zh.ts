@@ -1,6 +1,6 @@
 import { sidebar } from 'vuepress-theme-hope'
 
 export const zhSidebar = sidebar({
-  '/article/': 'structure',
-  '/': ['', 'aboutMe']
+  '/': ['', 'ABOUT'],
+  '/article/': 'structure'
 })
