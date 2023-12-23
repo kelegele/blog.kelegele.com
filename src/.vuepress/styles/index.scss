@@ -14,4 +14,16 @@
   .search-pro-button {
     margin: 0 1rem !important;
   }
+
+  .vp-project-card.project0 {
+    background: #ffffff;
+
+    .vp-project-name {
+      font-weight: bolder;
+    }
+
+    .vp-project-desc {
+      font-weight: lighter;
+    }
+  }
 }

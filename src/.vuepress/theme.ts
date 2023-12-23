@@ -39,7 +39,7 @@ export default hopeTheme({
     medias: {
       Email: 'mailto:kelegele@qq.com',
       GitHub: 'https://github.com/kelegele',
-      Wechat: 'ABOUT'
+      Wechat: '/ABOUT'
       // Sponsor: ['sponsor', path.resolve(__dirname, 'icons/sponsor-icon.svg')]
     }
   },
