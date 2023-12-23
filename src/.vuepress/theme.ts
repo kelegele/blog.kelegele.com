@@ -50,6 +50,13 @@ export default hopeTheme({
     end: ['Outlook', 'Repo', 'Language']
   },
 
+  // 路径导航
+  breadcrumb: false,
+
+  // meta
+  contributors: false,
+  editLink: false,
+
   locales: {
     '/en/': {
       // navbar
@@ -65,7 +72,7 @@ export default hopeTheme({
       copyright: 'MIT Licensed | Copyright © 2019~2023 Kelegele',
 
       blog: {
-        description: 'INFJ Explorer',
+        description: 'INFJ | Explore | idealist',
         intro: '/en/ABOUT.html',
         timeline: 'Timeline'
       },
@@ -92,7 +99,7 @@ export default hopeTheme({
       copyright: 'MIT Licensed | Copyright © 2019~2023 可了个乐',
 
       blog: {
-        description: '⁉️复杂多元世界探险家<br/>乐观现实主义梦想家➿',
+        description: '⁉️复杂多元世界探索家<br/>现实的理想主义者➿',
         intro: '/ABOUT.html',
         timeline: '时间轴'
       },
