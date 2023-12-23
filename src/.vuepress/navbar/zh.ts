@@ -8,12 +8,11 @@ export const zhNavbar = navbar([
   },
   {
     text: '内容',
-    link: '/article',
     icon: 'circle-check',
-    prefix: '/article',
+    prefix: '/article/',
     children: [
-      { text: '创造力', link: '/creativity' },
-      { text: '极客', link: '/geek' }
+      { text: '🍑创造力', link: 'creativity' },
+      { text: '🥬极客', link: 'geek' }
     ]
   },
   {

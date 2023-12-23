@@ -8,12 +8,11 @@ export const enNavbar = navbar([
   },
   {
     text: 'Content',
-    link: '/en/article',
     icon: 'circle-check',
-    prefix: '/en/article',
+    prefix: '/en/article/',
     children: [
-      { text: 'Creativity', link: '/creativity' },
-      { text: 'Geek', link: '/geek' }
+      { text: '🍑Creativity', link: 'creativity' },
+      { text: '🥬Geek', link: 'geek' }
     ]
   },
   {

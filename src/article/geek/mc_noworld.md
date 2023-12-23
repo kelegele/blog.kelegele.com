@@ -43,10 +43,15 @@ Minecraft 的第三方（或私人）服务器是对任何人都开放的，只�
 :::
 
 🎮 服务器: 「虚无领域」 AKA. nOWorld
+
 ⌚️ 关键词: 社区｜原生｜养老｜和谐
+
 💻 联机 IP: mc.noworld.top
-🐾QQ 群: ![1067977130](https://jq.qq.com/?_wv=1027&k=nDkqe03z)
-📡QQ 频道: ![虚无领域 nOWorld](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=TbkrZ&from=246610&biz=ka)
+
+🐾QQ 群: [1067977130](https://jq.qq.com/?_wv=1027&k=nDkqe03z 'QQ群 1067977130')
+
+📡QQ 频道: [虚无领域 nOWorld](https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&inviteCode=TbkrZ&from=246610&biz=ka 'QQ频道 虚无领域')
+
 🌏 当前版本: 我的世界 Java 版 1.18.1
 
 ### 介绍
