@@ -1,7 +1,14 @@
 // place your custom styles here
+$theme-color: #317af7;
+$project-background: #ffffff;
+$project-font-color: var(--text-color);
+
+$project0-background: $project-background;
+$project0-font-color: $project-font-color;
+
 #app {
-  .vp-blog-type-button {
-    color: #000;
+  .vp-blog-type-button .icon-wrapper.active {
+    color: #ffffff;
   }
 
   .vp-article-item,
@@ -12,18 +19,40 @@
 
   .vp-nav-links,
   .search-pro-button {
-    margin: 0 1rem !important;
+    margin: 0 2rem !important;
   }
 
+  // 友链样式————————————————————————————————————————————————————————————
   .vp-project-card.project0 {
-    background: #ffffff;
+    background: $project0-background;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 
     .vp-project-name {
+      color: $project0-font-color;
       font-weight: bolder;
     }
 
     .vp-project-desc {
+      color: $project0-font-color;
       font-weight: lighter;
     }
   }
+
+  .vp-project-card.project0:hover {
+    transition: all 0.2s ease;
+    transform: none;
+    box-shadow: 0 0 0 2px transparentize($theme-color, 0.5);
+
+    // .vp-project-name {
+    //   text-shadow: 0 0 1px transparentize($theme-color, 0.1);
+    // }
+
+    // .vp-project-desc {
+    //   text-shadow: 0 0 1px transparentize($theme-color, 0.1);
+    // }
+  }
+
+  // 友链样式 END——————————————————————————————————————————————————————————
 }

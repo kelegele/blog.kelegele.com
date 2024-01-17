@@ -3,6 +3,7 @@ title: 新的开始，或说是提升
 shortTitle: 产品之路
 description: 产品之路是我对创造力的追求与执着
 isOriginal: true
+article: true
 date: 2021-08-11 01:56:24
 category:
   - 创造力

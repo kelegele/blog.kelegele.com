@@ -101,7 +101,7 @@ export default hopeTheme({
       blog: {
         description: '⁉️复杂多元世界探索家<br/>现实的理想主义者➿',
         intro: '/ABOUT.html',
-        timeline: '时间轴'
+        timeline: '时间轴',
       },
 
       // page meta

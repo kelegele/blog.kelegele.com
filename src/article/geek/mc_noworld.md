@@ -1,8 +1,9 @@
 ---
 title: Minecraft 小服「nOWorld」—已关服 R.I.P.
-shortTitle: nOWorld
+shortTitle: Minecraft 服务器：nOWorld
 description: 产品之路是我对创造力的追求与执着
 isOriginal: true
+article: true
 date: 2022-01-26 17:53:50
 category:
   - 极客
