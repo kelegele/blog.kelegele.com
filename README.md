@@ -1,9 +1,8 @@
 <!-- markdownlint-disable -->
-<div style="display: flex;  justify-content:space-around; align-items:center">
-<img width="240" src="https://theme-hope-assets.vuejs.press/logo.svg" style="text-align: center">
-  <p>&</p>
-  <img width="200" height="200" src="//blog.kelegele.com/logo-black-bg.png" style="text-align: center;">
-</div>
+<p align="center" style="display: flex;  justify-content:space-around; align-items:center">
+  <img width="240" src="https://theme-hope-assets.vuejs.press/logo.svg" style="text-align: center">
+  <img width="200" height="200" src="https://blog.kelegele.com/logo-black-bg.png" style="text-align: center;">
+</p>
 <h1 align="center">vuepress-theme-hope Blog</h1>
 <h4 align="center">一个具有强大功能的 VuePress 主题✨</h4>
 
