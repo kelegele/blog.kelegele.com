@@ -1,6 +1,6 @@
 // place your custom styles here
 $theme-color: #317af7;
-$project-background: #ffffff;
+$project-background: var(--bg-color-float);
 $project-font-color: var(--text-color);
 
 $project0-background: $project-background;
