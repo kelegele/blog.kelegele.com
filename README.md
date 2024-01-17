@@ -7,17 +7,12 @@
 
 ## vuepress-theme-hope
 
-得益于强大的 theme，让每个人构建起自己的 Blog 十分轻松。
+得益于强大的 vuepress-theme-hope，让每个人构建起自己的 Blog 十分轻松。
 
 ## [文档](https://theme-hope.vuejs.press/)
 
 
 ## 联系
 
-有什么问题可以随时和我交流，WeChat：Kelegele
-
-<!-- markdownlint-disable -->
-<p align="left">
-  <img width="240" src="https://blog.kelegele.com/images/WeChat-QRCode.jpg" style="text-align: left;">
-</p>
+Emil：felicis1024@gmail.com
 

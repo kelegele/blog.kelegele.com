@@ -57,11 +57,12 @@ next: false
 
 ## 联系我 🙉
 
-Email：kelegele@qq.com
+Email：felicis1024@gmail.com
 
-微信/WeChat：Kelegele
 
-![Alt](/images/WeChat-QRCode.jpg "Kelegele 微信二维码" =x250)
+<!-- 微信/WeChat：Kelegele
+
+![Alt](/images/WeChat-QRCode.jpg "Kelegele 微信二维码" =x250) -->
 
 欢迎骚扰，陪聊，灌水。
 

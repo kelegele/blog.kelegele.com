@@ -21,7 +21,7 @@ export default hopeTheme({
   author: {
     name: 'Felix',
     url: '/ABOUT',
-    email: 'kelegele@qq.com'
+    email: 'felicis1024@gmail.com'
   },
 
   repo: 'kelegele/blog.kelegele.com',
@@ -37,9 +37,9 @@ export default hopeTheme({
     name: 'Felix',
     roundAvatar: true,
     medias: {
-      Email: 'mailto:kelegele@qq.com',
+      Email: 'mailto:felicis1024@gmail.com',
       GitHub: 'https://github.com/kelegele',
-      Wechat: '/ABOUT'
+      // Wechat: '/ABOUT'
       // Sponsor: ['sponsor', path.resolve(__dirname, 'icons/sponsor-icon.svg')]
     }
   },
