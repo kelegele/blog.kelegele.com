@@ -6,9 +6,9 @@
     <link>https://blog.kelegele.com/en/</link>
     <description>Kelegele Blog</description>
     <language>en-US</language>
-    <pubDate>Tue, 06 Feb 2024 03:49:59 GMT</pubDate>
-    <lastBuildDate>Tue, 06 Feb 2024 03:49:59 GMT</lastBuildDate>
-    <generator>vuepress-plugin-feed2</generator>
+    <pubDate>Tue, 06 Feb 2024 10:45:19 GMT</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2024 10:45:19 GMT</lastBuildDate>
+    <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2019~2023 Kelegele</copyright>
   </channel>
