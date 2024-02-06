@@ -20,3 +20,4 @@ projects:
     desc: 探索 | 理想主义者
     link: https://blog.kelegele.com
 ---
+<SpeedInsights/>
