@@ -20,8 +20,13 @@ projects:
     desc: 探索 | 理想主义者
     link: https://blog.kelegele.com
 ---
+
 <SpeedInsights/>
 
 <script setup lang="ts">
 import { SpeedInsights } from '@vercel/speed-insights/vue'
+
+import { inject } from '@vercel/analytics'
+ 
+inject()
 </script>
