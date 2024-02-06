@@ -21,3 +21,7 @@ projects:
     link: https://blog.kelegele.com
 ---
 <SpeedInsights/>
+
+<script setup lang="ts">
+import { SpeedInsights } from '@vercel/speed-insights/vue'
+</script>
