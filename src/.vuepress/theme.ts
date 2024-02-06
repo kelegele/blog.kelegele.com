@@ -9,7 +9,6 @@ import { enSidebar, zhSidebar } from './sidebar/index.js'
 export default hopeTheme({
   print: true,
   fullscreen: true,
-  backToTop: true,
   rtl: false,
   pure: false,
   darkmode: 'switch',
@@ -38,7 +37,7 @@ export default hopeTheme({
     roundAvatar: true,
     medias: {
       Email: 'mailto:felicis1024@gmail.com',
-      GitHub: 'https://github.com/kelegele',
+      GitHub: 'https://github.com/kelegele'
       // Wechat: '/ABOUT'
       // Sponsor: ['sponsor', path.resolve(__dirname, 'icons/sponsor-icon.svg')]
     }
@@ -101,7 +100,7 @@ export default hopeTheme({
       blog: {
         description: '⁉️复杂多元世界探索家<br/>现实的理想主义者➿',
         intro: '/ABOUT.html',
-        timeline: '时间轴',
+        timeline: '时间轴'
       },
 
       // page meta
@@ -121,6 +120,7 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
+    backToTop: true,
     activeHeaderLinks: true,
     copyright: {
       global: true,
@@ -131,6 +131,21 @@ export default hopeTheme({
     feed: {
       rss: true
     },
+    // search-pro
+    searchPro: {
+      indexContent: true,
+      customFields: [
+        {
+          getter: (page: any) => page.frontmatter.category,
+          formatter: '分类：$content'
+        },
+        {
+          getter: (page: any) => page.frontmatter.tag,
+          formatter: '标签：$content'
+        }
+      ]
+    },
+
     // Github: blog-comment
     // Vercel: blog-comment
     // LeanCloud: blog-comment
@@ -149,6 +164,10 @@ export default hopeTheme({
       repoId: 'R_kgDOK8wYgw',
       category: 'Announcements',
       categoryId: 'DIC_kwDOK8wYg84Cb8Xp'
+    },
+
+    components: {
+      components: ['VPCard']
     },
 
     // all features are enabled for demo, only preserve features you need here

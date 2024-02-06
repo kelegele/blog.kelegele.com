@@ -16,7 +16,7 @@ heroFullScreen: true
 tagline: ⁉️复杂多元世界探索家<br/>现实的理想主义者➿
 projects:
   - icon: http://blog.kelegele.com/logo-black-bg.png
-    name: 可了个乐
+    name: 可了个乐 Blog
     desc: 探索 | 理想主义者
     link: https://blog.kelegele.com
 ---

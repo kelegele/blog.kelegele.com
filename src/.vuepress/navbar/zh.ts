@@ -11,13 +11,18 @@ export const zhNavbar = navbar([
     icon: 'circle-check',
     prefix: '/article/',
     children: [
-      { text: '🍑创造力', link: 'creativity' },
-      { text: '🥬极客', link: 'geek' }
+      { text: '🍑创造力', link: 'creativity/' },
+      { text: '🥬极客', link: 'geek/' }
     ]
   },
   {
     text: '关于',
     link: '/ABOUT',
     icon: 'circle-info'
+  },
+  {
+    text: '友链',
+    link: '/LINKS',
+    icon: 'link'
   }
 ])

@@ -16,7 +16,7 @@ heroFullScreen: true
 tagline: The English version is planned. Please look forward to it.
 projects:
   - icon: http://blog.kelegele.com/logo-black-bg.png
-    name: Kelegele
+    name: Kelegele Blog
     desc: Explore | idealist
     link: https://blog.kelegele.com/en
 ---

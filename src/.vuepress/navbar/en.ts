@@ -19,5 +19,10 @@ export const enNavbar = navbar([
     text: 'About',
     link: '/en/ABOUT',
     icon: 'circle-info'
+  },
+  {
+    text: 'Links',
+    link: '/en/LINKS',
+    icon: 'link'
   }
 ])

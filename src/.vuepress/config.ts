@@ -1,6 +1,10 @@
 import { defineUserConfig } from 'vuepress'
-import theme from './theme.js'
-import { searchProPlugin } from 'vuepress-plugin-search-pro'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { getDirname, path } from '@vuepress/utils'
+
+const __dirname = getDirname(import.meta.url)
+
+import theme from './theme'
 
 export default defineUserConfig({
   base: '/',
@@ -20,23 +24,17 @@ export default defineUserConfig({
 
   theme,
 
-  plugins: [
-    // search-pro
-    searchProPlugin({
-      indexContent: true,
-      customFields: [
-        {
-          getter: (page: any) => page.frontmatter.category,
-          formatter: '分类：$content'
-        },
-        {
-          getter: (page: any) => page.frontmatter.tag,
-          formatter: '标签：$content'
-        }
-      ]
-    })
-  ]
+  plugins: [],
+
+  bundler: viteBundler({
+    viteOptions: {},
+    vuePluginOptions: {}
+  }),
 
   // Enable it with pwa
   // shouldPrefetch: false,
+
+  alias: {
+    '@Components': path.resolve(__dirname, 'components/index.js')
+  }
 })
